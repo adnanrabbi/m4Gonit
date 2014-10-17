@@ -174,5 +174,5 @@ function resetAll() {
 	$("#sboxL").text("0");
 	$("#sbox").val("");
 	$("#resultL").text("0");
-	document.getElementById("myForm").reset();
+	$("#selectBox").val("fbox");
 }
