@@ -17,6 +17,37 @@
   </div>
 <div class="ui-content" data-role="main">
 
+
+
+	<div align="center">
+	<form id="myForm" >
+		<a  id="fboxL" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">0</a>
+		<input id="fbox" type="hidden"  value="" name="fbox">
+		<a id="AOperator" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">?</a>
+		<input id="parm" type="hidden"  value="" name="parm">
+		<a id="sboxL" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">0</a>
+		<input id="sbox" type="hidden"  value="" name="sbox">
+		<div>
+			<a id="equelL1"  data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">=</a>
+		</div>
+		<div>
+			<a id="resultL" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">0</a>
+		</div>
+		<input id="result" type="hidden"  value="" name="result">
+		<input id="selectBox" type="hidden"  value="fbox" name="selectBox">
+		
+	</form>
+	</div>
+	<div class="line"></div>
+	<div align="center">
+		<a id="AOPlus"  data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">+</a>
+		<a id="AOMinus" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" >-</a>
+		<a id="AOMultiply" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" >*</a>
+		<a id="AODivide" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" >/</a>
+		<a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="decimal" >.</a>
+
+	</div>
+	<div class="line"></div>
 	<div align="center">
 		<a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="zero">০</a>
 	    <a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="one">১</a>
@@ -28,39 +59,12 @@
 	    <a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="seven">৭</a>
 	    <a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="eight">৮</a>
 	    <a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="nine">৯</a>
-	    <a data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="decimal" >.</a>
+	    
 	</div>
-	<div class="line"></div>
-	<div align="center">
-		<a id="AOPlus"  data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">+</a>
-		<a id="AOMinus" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" >-</a>
-		<a id="AOMultiply" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" >*</a>
-		<a id="AODivide" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" >/</a>
-
-	</div>
-	<div class="line"></div>	
-	<div align="center">
-	<form id="myForm" >
-		<a  id="fboxL" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">0</a>
-		<input id="fbox" type="hidden"  value="" name="fbox">
-		<a id="AOperator" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">?</a>
-		<input id="parm" type="hidden"  value="" name="parm">
-		<a id="sboxL" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">0</a>
-		<input id="sbox" type="hidden"  value="" name="sbox">
-		<div>
-			<a id="equelL"  data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">=</a>
-		</div>
-		<div>
-			<a id="resultL" data-rel="dialog" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">0</a>
-		</div>
-		<input id="result" type="hidden"  value="" name="result">
-		<input id="selectBox" type="hidden"  value="fbox" name="selectBox">
-		<input type="button" onclick="resetAll()" value="সব মুছে ফেলো">
-	</form>
-	</div>
-	<script>
-
-</script>
+<div class="ui-grid-a">
+                <div class="ui-block-a"><input type="button" onclick="resetAll()" value="সব মুছে ফেলো"></div>
+                <div class="ui-block-b"><input id ="equelL" type="button" value="ফলাফল "></div>
+                            </div>
 </div>
   <div data-role="footer">
  	 <span class="ui-title" role="heading" aria-level="1">কপিরাইট: metafour.com</span>
